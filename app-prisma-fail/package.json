@@ -1,0 +1,16 @@
+{
+  "name": "@demo/prisma-failing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "tsc",
+    "build": "node ../esbuild/esbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify-plugin": "3.0.0"
+  }
+}

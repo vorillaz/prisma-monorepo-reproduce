@@ -1,0 +1,15 @@
+{
+  "name": "@demo/app-prisma",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "prisma:studio": "prisma studio",
+    "postinstall": "prisma generate"
+  },
+  "files": [],
+  "devDependencies": {
+    "@prisma/client": "3.3.0",
+    "prisma": "3.3.0"
+  }
+}
