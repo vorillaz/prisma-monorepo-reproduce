@@ -15,7 +15,6 @@ build({
   outfile: out,
   minify: false,
   bundle: true,
-  cjs: true,
   watch,
   sourcemap: 'external',
   platform: 'node',
