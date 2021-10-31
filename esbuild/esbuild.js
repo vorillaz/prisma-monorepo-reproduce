@@ -1,7 +1,6 @@
 const { build } = require('esbuild');
 const path = require('path');
 
-
 const source = path.resolve(process.cwd());
 
 const src = path.join(source, 'server.ts');
@@ -16,12 +15,11 @@ build({
   outfile: out,
   minify: false,
   bundle: true,
+  cjs: true,
   watch,
   sourcemap: 'external',
   platform: 'node',
-  plugins: [
-    
-  ],
+  plugins: [],
   define: {
     'process.env.NODE_ENV': '"production"',
   },
